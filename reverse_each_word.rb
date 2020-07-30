@@ -7,3 +7,19 @@ container = []
  end
  container.join(" ")
 end
+
+
+
+
+
+
+def reverse_each_word(string)
+original_array = string.split(" ")
+new_array = []
+original_array.collect do |string|
+  new_array.push(string.reverse)
+
+  
+end
+  new_array.join(" ")
+end
