@@ -7,9 +7,3 @@ container = []
  end
  container.join(" ")
 end
-
-
-
-
-
-
