@@ -1,9 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def reverse_each_word(string)
-string = string.reverse("")
+#iterate thru a string of words ulilizing the each method
 container = []
+ src_array << string.split(" ")
+ src_array.each do |string|
+   container<< string.reverse 
+ end
+ container.join(" ")
+ 
+ 
 
-string.each {|item|container.unshift(item)}
-         return container.join ("")
 
+#returns the same sentence (order) but with each word reversed in place
 
 end
