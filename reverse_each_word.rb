@@ -1,4 +1,4 @@
-def reverse_each_word_with_each(string)
+def reverse_each_word(string)
 #iterate thru a string of words ulilizing the each method
  src_array = string.split(" ")
 container = []
