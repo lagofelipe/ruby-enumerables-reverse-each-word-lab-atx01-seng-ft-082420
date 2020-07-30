@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-string = string.reserse("")
+string = string.reverse("")
 container = []
 
 string.each {|item|container.unshift(item)}
