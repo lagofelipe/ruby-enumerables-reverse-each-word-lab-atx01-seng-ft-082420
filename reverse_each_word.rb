@@ -6,5 +6,4 @@ container = []
    container << string.reverse
  end
  container.join(" ")
-
 end
